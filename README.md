@@ -24,3 +24,8 @@
 2. Define Service Contract
 3. Define Data Contracts for operation parameters and return types
 4. Define the Service implementation class
+5. Service implementation class can use **ServiceBehavior** annotation to drive aspects of its behavior when called as a service.
+6. Service instance lifetime: 
+    1. Per call (favored)
+    2. Per session (default)
+    3. Singleton
