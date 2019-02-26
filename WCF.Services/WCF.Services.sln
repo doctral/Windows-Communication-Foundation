@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Entities", "..\WCF.Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Data", "WCF.Data\WCF.Data.csproj", "{F55F3BEF-1471-4DDE-802A-AB08CCBBBE06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.SelfHostingApp", "WCF.SelfHostingApp\WCF.SelfHostingApp.csproj", "{D6349881-145E-4485-A7B7-813963B0E37C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F55F3BEF-1471-4DDE-802A-AB08CCBBBE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55F3BEF-1471-4DDE-802A-AB08CCBBBE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55F3BEF-1471-4DDE-802A-AB08CCBBBE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6349881-145E-4485-A7B7-813963B0E37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6349881-145E-4485-A7B7-813963B0E37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6349881-145E-4485-A7B7-813963B0E37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6349881-145E-4485-A7B7-813963B0E37C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
