@@ -18,3 +18,9 @@
 6. Behaviors configure aspects about how the service behaves when service messages are received
 7. Bindings configure aspects about how the service behaves when sevice messages are received 
 8. Binding configure aspects of the communication pipe shared with the client
+
+## Implementing Services
+1. Create a WCF Service Library project
+2. Define Service Contract
+3. Define Data Contracts for operation parameters and return types
+4. Define the Service implementation class
