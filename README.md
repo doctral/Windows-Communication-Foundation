@@ -29,3 +29,19 @@
     1. Per call (favored)
     2. Per session (default)
     3. Singleton
+
+## Hosting Services
+1. Services need to run in a host process
+2. The host listens for incoming messages and dispatches calls to the appropriate service method
+3. How the service is exposed by the host is driven through configuration
+4. Hosting Options:
+    1. Self Host:  
+        1. Any .NET process
+        2. User ServiceHost class
+    2. IIS Host: 
+        1. can only handle HTTP traffic
+        2. When using IIS hosting, there is no need to specify address in endpoint
+    3. WCF Service Library
+        1. OK for quick "smoke testing"
+        2. Generally want to debug and develop with a self host or IIS host
+    
