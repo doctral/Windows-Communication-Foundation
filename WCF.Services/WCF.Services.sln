@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.SelfHostingApp", "WCF.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.IISHostingApp", "WCF.IISHostingApp\WCF.IISHostingApp.csproj", "{86B81ECF-6683-451D-A741-EBAAC840E0C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Clients.CodeGeneration", "WCF.Clients.CodeGeneration\WCF.Clients.CodeGeneration.csproj", "{89B1A64A-1EEC-482E-8932-668F07508BF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{86B81ECF-6683-451D-A741-EBAAC840E0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86B81ECF-6683-451D-A741-EBAAC840E0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86B81ECF-6683-451D-A741-EBAAC840E0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B1A64A-1EEC-482E-8932-668F07508BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B1A64A-1EEC-482E-8932-668F07508BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B1A64A-1EEC-482E-8932-668F07508BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B1A64A-1EEC-482E-8932-668F07508BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
